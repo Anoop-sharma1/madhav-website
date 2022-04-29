@@ -1,0 +1,18 @@
+@media screen and (max-width:900px) {
+    body{
+        background-color: red;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 19px 165px;
+        justify-content: center;
+    }
+    .nav ul{
+        justify-content: center;
+    }
+    .login{
+        margin: 50px;
+    }
+}

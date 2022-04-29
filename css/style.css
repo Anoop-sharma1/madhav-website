@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Inconsolata:wght@200&family=Quicksand:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #8e8eaf
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 92px;
+    padding: 2px 22px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 12px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.login{
+    margin: 15px 70px;
+}
+.login a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 70px;
+}
+
+.login a:hover {
+    color: aqua;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    color: aqua;
+    font-weight: bold;
+}
+
+.search input {
+    width: 300px;
+    align-items: center;
+    padding: 0 0 10px 0;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    background: #8e8eaf;
+    border: 2px solid #ab9a9a;
+    cursor: pointer;
+}
+
+.container {
+    min-height: 850px;
+
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider img {
+    margin-left: 108px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    width: 845px;
+}
+
+.card {
+
+    margin: auto;
+    color: mediumaquamarine;
+    DISPLAY: FLEX;
+    MARGIN: 0 70px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.card-item img {
+    width: 100px;
+    height: 100px;
+    margin: 0 45px;
+}
+
+.lines {
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: goldenrod;
+}
+
+footer {
+    height: 12vh;
+    background-color: black;
+    color: azure;
+    font-family: 'Inconsolata', monospace;
+}
